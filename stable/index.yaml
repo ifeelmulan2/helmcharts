@@ -1,9 +1,35 @@
 apiVersion: v1
 entries:
+  ifeelmulan:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-27T06:44:03.794481602Z"
+    description: Sample helm chart for study
+    digest: f1c81c5a0a7369d0f5bb0faf58f6dda53d2a92db38e9cfd82abbe50f840fae0d
+    engine: gotpl
+    home: https://ifeelmulan2.github.io/helmcharts/stable
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    - ifeelmulan
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: ifeelmulan
+    sources:
+    - https://ifeelmulan2.github.io/helmcharts/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - ifeelmulan-0.1.0.tgz
+    version: 0.1.0
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-27T02:28:02.730925833Z"
+    created: "2019-09-27T06:44:03.796138889Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +52,4 @@ entries:
     urls:
     - redis-9.2.0.tgz
     version: 9.2.0
-generated: "2019-09-27T02:28:02.728610562Z"
+generated: "2019-09-27T06:44:03.793696348Z"
